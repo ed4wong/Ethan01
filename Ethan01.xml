@@ -1,1 +1,43 @@
-<xml xmlns="http://www.w3.org/1999/xhtml"></xml>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="movement_forward" id="10" x="86" y="47">
+    <next>
+      <block type="movement_setmotors" id="20" inline="true">
+        <next>
+          <block type="movement_right" id="92">
+            <next>
+              <block type="movement_setmotors" id="102" inline="true">
+                <next>
+                  <block type="movement_left" id="112">
+                    <next>
+                      <block type="movement_setmotors" id="122" inline="true">
+                        <next>
+                          <block type="movement_right" id="132">
+                            <next>
+                              <block type="movement_setmotors" id="142" inline="true">
+                                <next>
+                                  <block type="movement_left" id="152">
+                                    <next>
+                                      <block type="movement_setmotors" id="162" inline="true">
+                                        <next>
+                                          <block type="movement_stop" id="172"></block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
