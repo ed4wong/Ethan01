@@ -1,0 +1,19 @@
+Ethan01
+================
+
+first program to move jade around carpet.  Start from Left bottom corner of carpet
+
+### Project Information
+```
+Type              : Scratch
+Version           : 1.0.0
+Author            : ed4wong
+Firmware          : 42
+```
+
+### Additional Information
+This project requires a Jade Robot to run!
+
+### License
+This software is provided "as is" without any expressed or implied warranties.  In no case shall the author or any contributors be liable for any damages caused by the use of this software.
+
