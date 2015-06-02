@@ -217,7 +217,7 @@
                                             </statement>
                                             <next>
                                               <block type="multimedia_playwav" id="59">
-                                                <field name="WAV">bday00.wav</field>
+                                                <field name="WAV">bday.wav</field>
                                                 <next>
                                                   <block type="movement_stop" id="52"></block>
                                                 </next>
