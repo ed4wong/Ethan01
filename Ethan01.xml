@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_repeat" id="1" inline="true" x="-53" y="91">
+  <block type="controls_repeat" id="1" inline="true" x="-67" y="1">
     <value name="TIMES">
       <block type="math_number" id="2">
         <field name="NUM">20</field>
@@ -59,7 +59,86 @@
           </block>
         </statement>
         <next>
-          <block type="movement_stop" id="6"></block>
+          <block type="controls_repeat" id="97" inline="true">
+            <value name="TIMES">
+              <block type="math_number" id="98">
+                <field name="NUM">20</field>
+              </block>
+            </value>
+            <statement name="DO">
+              <block type="movement_setmotors" id="99" inline="true">
+                <value name="BOTHMOVLEFT">
+                  <block type="math_number" id="100">
+                    <field name="NUM">25</field>
+                  </block>
+                </value>
+                <value name="BOTHMOVRIGHT">
+                  <block type="math_number" id="101">
+                    <field name="NUM">50</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="robot_delay" id="102" inline="true">
+                    <value name="DELAY">
+                      <block type="math_number" id="103">
+                        <field name="NUM">500</field>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </statement>
+            <next>
+              <block type="controls_repeat" id="104" inline="true">
+                <value name="TIMES">
+                  <block type="math_number" id="105">
+                    <field name="NUM">20</field>
+                  </block>
+                </value>
+                <statement name="DO">
+                  <block type="movement_setmotors" id="106" inline="true">
+                    <value name="BOTHMOVLEFT">
+                      <block type="math_number" id="107">
+                        <field name="NUM">110</field>
+                      </block>
+                    </value>
+                    <value name="BOTHMOVRIGHT">
+                      <block type="math_number" id="108">
+                        <field name="NUM">110</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="robot_delay" id="109" inline="true">
+                        <value name="DELAY">
+                          <block type="math_number" id="110">
+                            <field name="NUM">500</field>
+                          </block>
+                        </value>
+                      </block>
+                    </next>
+                  </block>
+                </statement>
+                <next>
+                  <block type="led_select" id="119" inline="true">
+                    <field name="ACTION">ON</field>
+                    <value name="LED">
+                      <block type="math_number" id="132">
+                        <field name="NUM">10</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="oled_drawtext" id="150">
+                        <field name="TEXT">Hello Ethan</field>
+                        <next>
+                          <block type="movement_stop" id="6"></block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
         </next>
       </block>
     </next>
