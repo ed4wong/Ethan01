@@ -186,7 +186,7 @@
                     <field name="TEXT">Happy 6th Birthday</field>
                     <next>
                       <block type="variables_set" id="44" inline="true">
-                        <field name="VAR">xi</field>
+                        <field name="VAR">i</field>
                         <value name="VALUE">
                           <block type="math_number" id="45">
                             <field name="NUM">0</field>
@@ -200,7 +200,7 @@
                                 <field name="OP">LT</field>
                                 <value name="A">
                                   <block type="variables_get" id="48">
-                                    <field name="VAR">xi</field>
+                                    <field name="VAR">i</field>
                                   </block>
                                 </value>
                                 <value name="B">
@@ -215,7 +215,7 @@
                                 <field name="ACTION">FLASH</field>
                                 <value name="LED">
                                   <block type="variables_get" id="80">
-                                    <field name="VAR">xi</field>
+                                    <field name="VAR">i</field>
                                   </block>
                                 </value>
                                 <next>
@@ -227,13 +227,13 @@
                                     </value>
                                     <next>
                                       <block type="variables_set" id="54" inline="true">
-                                        <field name="VAR">xi</field>
+                                        <field name="VAR">i</field>
                                         <value name="VALUE">
                                           <block type="math_arithmetic" id="55" inline="true">
                                             <field name="OP">ADD</field>
                                             <value name="A">
                                               <block type="variables_get" id="56">
-                                                <field name="VAR">xi</field>
+                                                <field name="VAR">i</field>
                                               </block>
                                             </value>
                                             <value name="B">
