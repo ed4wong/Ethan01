@@ -17,10 +17,10 @@
             <field name="NUM">1000</field>
           </block>
         </value>
-        <next>
-          <block type="movement_stop" id="4"></block>
-        </next>
       </block>
     </statement>
+    <next>
+      <block type="movement_stop" id="4"></block>
+    </next>
   </block>
 </xml>
