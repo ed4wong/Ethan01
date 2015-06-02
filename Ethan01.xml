@@ -216,10 +216,10 @@
                                               </block>
                                             </statement>
                                             <next>
-                                              <block type="multimedia_playwav" id="59">
+                                              <block type="multimedia_playwav" id="60">
                                                 <field name="WAV">bday.wav</field>
                                                 <next>
-                                                  <block type="movement_stop" id="52"></block>
+                                                  <block type="movement_stop" id="53"></block>
                                                 </next>
                                               </block>
                                             </next>
