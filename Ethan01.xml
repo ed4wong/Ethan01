@@ -212,8 +212,8 @@
                                       <block type="led_select" id="44" inline="true">
                                         <field name="ACTION">FLASH</field>
                                         <value name="LED">
-                                          <block type="variables_get" id="45">
-                                            <field name="VAR">x</field>
+                                          <block type="math_number" id="222">
+                                            <field name="NUM">6</field>
                                           </block>
                                         </value>
                                         <next>
