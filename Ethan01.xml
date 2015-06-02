@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_repeat" id="1" inline="true" x="-30" y="27">
+  <block type="controls_repeat" id="1" inline="true" disabled="true" x="-30" y="27">
     <value name="TIMES">
       <block type="math_number" id="2">
         <field name="NUM">20</field>
@@ -29,7 +29,7 @@
       </block>
     </statement>
     <next>
-      <block type="controls_repeat" id="8" inline="true">
+      <block type="controls_repeat" id="8" inline="true" disabled="true">
         <value name="TIMES">
           <block type="math_number" id="9">
             <field name="NUM">20</field>
@@ -59,7 +59,7 @@
           </block>
         </statement>
         <next>
-          <block type="controls_repeat" id="15" inline="true">
+          <block type="controls_repeat" id="15" inline="true" disabled="true">
             <value name="TIMES">
               <block type="math_number" id="16">
                 <field name="NUM">20</field>
@@ -89,7 +89,7 @@
               </block>
             </statement>
             <next>
-              <block type="controls_repeat" id="22" inline="true">
+              <block type="controls_repeat" id="22" inline="true" disabled="true">
                 <value name="TIMES">
                   <block type="math_number" id="23">
                     <field name="NUM">20</field>
@@ -156,7 +156,7 @@
                                         </value>
                                         <value name="B">
                                           <block type="math_number" id="39">
-                                            <field name="NUM">6</field>
+                                            <field name="NUM">36</field>
                                           </block>
                                         </value>
                                       </block>
