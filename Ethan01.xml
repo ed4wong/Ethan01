@@ -1,89 +1,17 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_setmotors" id="2" inline="true" x="-15" y="125">
+  <block type="movement_setmotors" id="1" inline="true" x="-15" y="125">
     <value name="BOTHMOVLEFT">
-      <block type="math_number" id="3">
-        <field name="NUM">100</field>
+      <block type="math_number" id="2">
+        <field name="NUM">20</field>
       </block>
     </value>
     <value name="BOTHMOVRIGHT">
-      <block type="math_number" id="4">
-        <field name="NUM">100</field>
+      <block type="math_number" id="3">
+        <field name="NUM">20</field>
       </block>
     </value>
     <next>
-      <block type="movement_right" id="5">
-        <next>
-          <block type="movement_setmotors" id="6" inline="true">
-            <value name="BOTHMOVLEFT">
-              <block type="math_number" id="7">
-                <field name="NUM">50</field>
-              </block>
-            </value>
-            <value name="BOTHMOVRIGHT">
-              <block type="math_number" id="8">
-                <field name="NUM">50</field>
-              </block>
-            </value>
-            <next>
-              <block type="movement_left" id="9">
-                <next>
-                  <block type="movement_setmotors" id="10" inline="true">
-                    <value name="BOTHMOVLEFT">
-                      <block type="math_number" id="11">
-                        <field name="NUM">100</field>
-                      </block>
-                    </value>
-                    <value name="BOTHMOVRIGHT">
-                      <block type="math_number" id="12">
-                        <field name="NUM">100</field>
-                      </block>
-                    </value>
-                    <next>
-                      <block type="movement_right" id="13">
-                        <next>
-                          <block type="movement_setmotors" id="14" inline="true">
-                            <value name="BOTHMOVLEFT">
-                              <block type="math_number" id="15">
-                                <field name="NUM">30</field>
-                              </block>
-                            </value>
-                            <value name="BOTHMOVRIGHT">
-                              <block type="math_number" id="16">
-                                <field name="NUM">30</field>
-                              </block>
-                            </value>
-                            <next>
-                              <block type="movement_left" id="17">
-                                <next>
-                                  <block type="movement_setmotors" id="18" inline="true">
-                                    <value name="BOTHMOVLEFT">
-                                      <block type="math_number" id="19">
-                                        <field name="NUM">20</field>
-                                      </block>
-                                    </value>
-                                    <value name="BOTHMOVRIGHT">
-                                      <block type="math_number" id="20">
-                                        <field name="NUM">20</field>
-                                      </block>
-                                    </value>
-                                    <next>
-                                      <block type="movement_stop" id="21"></block>
-                                    </next>
-                                  </block>
-                                </next>
-                              </block>
-                            </next>
-                          </block>
-                        </next>
-                      </block>
-                    </next>
-                  </block>
-                </next>
-              </block>
-            </next>
-          </block>
-        </next>
-      </block>
+      <block type="movement_stop" id="20"></block>
     </next>
   </block>
 </xml>
