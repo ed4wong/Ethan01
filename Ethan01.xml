@@ -127,6 +127,11 @@
   </block>
   <block type="variables_set" id="168" inline="true" x="464" y="428">
     <field name="VAR">x</field>
+    <value name="VALUE">
+      <block type="math_number" id="215">
+        <field name="NUM">0</field>
+      </block>
+    </value>
     <next>
       <block type="controls_whileUntil" id="67" inline="false">
         <field name="MODE">WHILE</field>
