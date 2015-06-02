@@ -149,7 +149,7 @@
                                 </value>
                                 <next>
                                   <block type="oled_drawtext" id="52">
-                                    <field name="TEXT">Have A Nice Day</field>
+                                    <field name="TEXT">Happy 6th Birthday</field>
                                     <next>
                                       <block type="variables_set" id="34" inline="true">
                                         <field name="VAR">i</field>
