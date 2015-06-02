@@ -213,7 +213,7 @@
                                         <field name="ACTION">FLASH</field>
                                         <value name="LED">
                                           <block type="variables_get" id="45">
-                                            <field name="VAR">xi</field>
+                                            <field name="VAR">x</field>
                                           </block>
                                         </value>
                                         <next>
