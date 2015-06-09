@@ -2,26 +2,26 @@
   <block type="controls_repeat" id="1" inline="true" x="-30" y="27">
     <value name="TIMES">
       <block type="math_number" id="2">
-        <field name="NUM">40</field>
+        <field name="NUM">20</field>
       </block>
     </value>
     <statement name="DO">
       <block type="movement_setmotors" id="3" inline="true">
         <value name="BOTHMOVLEFT">
           <block type="math_number" id="4">
-            <field name="NUM">400</field>
+            <field name="NUM">1</field>
           </block>
         </value>
         <value name="BOTHMOVRIGHT">
           <block type="math_number" id="5">
-            <field name="NUM">400</field>
+            <field name="NUM">1</field>
           </block>
         </value>
         <next>
           <block type="robot_delay" id="6" inline="true">
             <value name="DELAY">
               <block type="math_number" id="7">
-                <field name="NUM">500</field>
+                <field name="NUM">1000</field>
               </block>
             </value>
           </block>
