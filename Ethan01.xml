@@ -29,7 +29,7 @@
       </block>
     </statement>
     <next>
-      <block type="controls_repeat" id="8" inline="true">
+      <block type="controls_repeat" id="8" inline="true" disabled="true">
         <value name="TIMES">
           <block type="math_number" id="9">
             <field name="NUM">20</field>
@@ -59,7 +59,7 @@
           </block>
         </statement>
         <next>
-          <block type="controls_repeat" id="15" inline="true">
+          <block type="controls_repeat" id="15" inline="true" disabled="true">
             <value name="TIMES">
               <block type="math_number" id="16">
                 <field name="NUM">20</field>
@@ -89,7 +89,7 @@
               </block>
             </statement>
             <next>
-              <block type="controls_repeat" id="22" inline="true">
+              <block type="controls_repeat" id="22" inline="true" disabled="true">
                 <value name="TIMES">
                   <block type="math_number" id="23">
                     <field name="NUM">20</field>
@@ -119,68 +119,7 @@
                   </block>
                 </statement>
                 <next>
-                  <block type="oled_cleardisplay" id="29">
-                    <next>
-                      <block type="oled_setcursor" id="30" inline="true">
-                        <value name="STARTX">
-                          <block type="math_number" id="31">
-                            <field name="NUM">10</field>
-                          </block>
-                        </value>
-                        <value name="STARTY">
-                          <block type="math_number" id="32">
-                            <field name="NUM">10</field>
-                          </block>
-                        </value>
-                        <next>
-                          <block type="oled_drawtext" id="33">
-                            <field name="TEXT">Hello Ethan</field>
-                            <next>
-                              <block type="oled_setcursor" id="34" inline="true">
-                                <value name="STARTX">
-                                  <block type="math_number" id="35">
-                                    <field name="NUM">10</field>
-                                  </block>
-                                </value>
-                                <value name="STARTY">
-                                  <block type="math_number" id="36">
-                                    <field name="NUM">30</field>
-                                  </block>
-                                </value>
-                                <next>
-                                  <block type="oled_drawtext" id="37">
-                                    <field name="TEXT">Happy 6th Birthday</field>
-                                    <next>
-                                      <block type="led_select" id="38" inline="true" disabled="true">
-                                        <field name="ACTION">FLASH</field>
-                                        <value name="LED">
-                                          <block type="math_number" id="39">
-                                            <field name="NUM">6</field>
-                                          </block>
-                                        </value>
-                                        <next>
-                                          <block type="robot_delay" id="40" inline="true" disabled="true">
-                                            <value name="DELAY">
-                                              <block type="math_number" id="41">
-                                                <field name="NUM">75</field>
-                                              </block>
-                                            </value>
-                                            <next>
-                                              <block type="movement_stop" id="42"></block>
-                                            </next>
-                                          </block>
-                                        </next>
-                                      </block>
-                                    </next>
-                                  </block>
-                                </next>
-                              </block>
-                            </next>
-                          </block>
-                        </next>
-                      </block>
-                    </next>
-                  </block>
+                  <block type="movement_stop" id="42"></block>
                 </next>
               </block>
             </next>
