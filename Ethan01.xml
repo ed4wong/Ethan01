@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_repeat" id="1" inline="true" x="-30" y="27">
+  <block type="controls_repeat" id="1" inline="true" x="-163" y="-252">
     <value name="TIMES">
       <block type="math_number" id="2">
         <field name="NUM">20</field>
@@ -30,100 +30,6 @@
     </statement>
     <next>
       <block type="movement_stop" id="29"></block>
-    </next>
-  </block>
-  <block type="controls_repeat" id="8" inline="true" disabled="true" x="293" y="218">
-    <value name="TIMES">
-      <block type="math_number" id="9">
-        <field name="NUM">20</field>
-      </block>
-    </value>
-    <statement name="DO">
-      <block type="movement_setmotors" id="10" inline="true">
-        <value name="BOTHMOVLEFT">
-          <block type="math_number" id="11">
-            <field name="NUM">50</field>
-          </block>
-        </value>
-        <value name="BOTHMOVRIGHT">
-          <block type="math_number" id="12">
-            <field name="NUM">25</field>
-          </block>
-        </value>
-        <next>
-          <block type="robot_delay" id="13" inline="true">
-            <value name="DELAY">
-              <block type="math_number" id="14">
-                <field name="NUM">500</field>
-              </block>
-            </value>
-          </block>
-        </next>
-      </block>
-    </statement>
-    <next>
-      <block type="controls_repeat" id="15" inline="true" disabled="true">
-        <value name="TIMES">
-          <block type="math_number" id="16">
-            <field name="NUM">20</field>
-          </block>
-        </value>
-        <statement name="DO">
-          <block type="movement_setmotors" id="17" inline="true">
-            <value name="BOTHMOVLEFT">
-              <block type="math_number" id="18">
-                <field name="NUM">25</field>
-              </block>
-            </value>
-            <value name="BOTHMOVRIGHT">
-              <block type="math_number" id="19">
-                <field name="NUM">50</field>
-              </block>
-            </value>
-            <next>
-              <block type="robot_delay" id="20" inline="true">
-                <value name="DELAY">
-                  <block type="math_number" id="21">
-                    <field name="NUM">500</field>
-                  </block>
-                </value>
-              </block>
-            </next>
-          </block>
-        </statement>
-        <next>
-          <block type="controls_repeat" id="22" inline="true" disabled="true">
-            <value name="TIMES">
-              <block type="math_number" id="23">
-                <field name="NUM">20</field>
-              </block>
-            </value>
-            <statement name="DO">
-              <block type="movement_setmotors" id="24" inline="true">
-                <value name="BOTHMOVLEFT">
-                  <block type="math_number" id="25">
-                    <field name="NUM">16</field>
-                  </block>
-                </value>
-                <value name="BOTHMOVRIGHT">
-                  <block type="math_number" id="26">
-                    <field name="NUM">16</field>
-                  </block>
-                </value>
-                <next>
-                  <block type="robot_delay" id="27" inline="true">
-                    <value name="DELAY">
-                      <block type="math_number" id="28">
-                        <field name="NUM">500</field>
-                      </block>
-                    </value>
-                  </block>
-                </next>
-              </block>
-            </statement>
-          </block>
-        </next>
-      </block>
     </next>
   </block>
 </xml>
